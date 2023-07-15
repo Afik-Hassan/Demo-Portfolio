@@ -73,3 +73,34 @@ li > a{
     justify-content: space-around;
 }
 
+.mywork{
+    margin: 0px 230px 100px 230px;
+}
+.whatido{
+    font-weight: 800;
+    text-align: center;
+    padding: 20px 300px 50px 300px;
+}
+.hur{
+    font-size: 35px;
+}
+
+.workd{
+    display: flex;
+    justify-content: space-around;
+}
+
+.work{
+    margin: 0px  20px 0px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 80px;
+    border: 1px solid  #FFF;
+    box-shadow: 3px 3px 3px 3px #a3a3a3;
+    font-weight: 500;
+
+}
+.work:hover{
+    /* box-shadow: 3px 3px 3px 3px #000000; */
+}
