@@ -47,6 +47,14 @@ li > a{
     border-radius: 3px;
     border: 1px solid #FD6E0A;
 }
+.bttn{
+    padding: 10px;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    border-radius: 3px;
+    border: 1px solid #FD6E0A;
+    justify-content: space-around;
+}
 .profilepic{
     width: 500px;
     padding: 0px 80px 0px 0px;
@@ -103,4 +111,64 @@ li > a{
 }
 .work:hover{
     /* box-shadow: 3px 3px 3px 3px #000000; */
+}
+.summary{
+    margin: 0px 230px 100px 230px;
+}
+.sum{
+    text-align: center;
+}
+.p{
+  height: 1px;
+  background-color: black; 
+  margin-right: 20px;
+
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin:  10px;
+    color: #474747;
+}
+
+.footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 100px 100px;
+}
+
+.left{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right{
+    display: block;
+    border-radius: 5px;
+}
+
+.left, .right{
+    width: 50%;
+    text-align: center;
+}
+
+footer > div > a{
+    padding: 10px;
+}
+
+.form  input ,textarea{
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border: 0px ;
+    border-radius: 0px;
+    width: 80%;
+
+}
+#butt{
+   margin-right: 550px;
 }
